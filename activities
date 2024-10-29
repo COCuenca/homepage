@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Portfolio</title>
+  <link rel="stylesheet" href="style.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+
+  <header>
+    <h1>Your Name</h1>
+    <p>Welcome to my portfolio!</p>
+  </header>
+
+  <main>
+    <!-- Course Activities Section with Buttons -->
+    <section id="course-activities">
+      <h2>Course Activities</h2>
+      <!-- Button linking to Activity 2 -->
+      <a href="activities/activity2.html" class="activity-button">Activity 2</a>
+      <!-- Add more buttons for additional activities -->
+      <a href="activities/activity3.html" class="activity-button">Activity 3</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Your Name. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
 
