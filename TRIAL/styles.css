@@ -1,0 +1,117 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-color: #007bff;
+    color: rgb(245, 236, 236);
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.navbar {
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Cards Section Styles */
+#cards-section {
+    padding: 3rem 0;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Contact Form Styles */
+#contact {
+    background-color: #f8f9fa;
+    padding: 3rem 0;
+}
+
+#contact h2 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+#contact form .form-control {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+}
+
+#contact form button {
+    padding: 0.75rem;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .card {
+        margin-bottom: 2rem;
+    }
+
+    .card img {
+        height: 150px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .card img {
+        height: 120px;
+    }
+}
